@@ -58,7 +58,7 @@ window.addEventListener("load",()=>{
     const loader = document.getElementById("preloader"); 
     setTimeout(()=>{ 
     loader.classList.add("hide");
-    },1000)
+    },2000)
 }); 
  
 const links = [... document.querySelectorAll(".scroll-link")]; 
